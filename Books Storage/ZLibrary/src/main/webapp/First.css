@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.full{
+background-image: url(./Books/books-g41fbaf295_1920.jpg);
+background-repeat: no-repeat;
+height: 100%;
+background-position: center;
+/* max-width: 100vw;
+max-height: 100vh; */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 84.9vh;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    background-image:linear-gradient(to top ,  #833ab4, #fd1d1d, #fcb045) ;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    /* text-decoration-color: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045); */
+  }
+  
+  .login-register {
+    display: inline-block;
+  }
+  
+  .login, .register {
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 50px;
+    color: #fff;
+    background-image: linear-gradient(to right, #5f2c82, #49a09d);
+    transition: 2s ;
+  }
+  
+  .login:hover, .register:hover {
+    background-image: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+    }
+
+  .social-media{
+    position: absolute;
+    top: 10rem;
+    right: 5rem;
+  }
+
+.social-media a img {
+    width: 30px;
+    height: 30px;
+    filter: invert(1);
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    transition: 1s;
+    /* margin-left: 85rem; */
+    /* position: absolute; */
+  }
+
+  .social-media a img:hover{
+    scale: 1.5;
+    
+  }
+
+  p{
+    filter: invert(1);
+  }
+
+
+

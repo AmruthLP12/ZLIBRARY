@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding:0 ;
+}
+
+body{
+    background-image: url(Books/artificial-intelligence-4839151.png);
+    /* background-position: top; */
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+
+fieldset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:30%;
+    height: 17rem;
+    margin-left: 35%;
+    margin-top: 15%;
+    background-color: transparent;
+    background-position: center;
+    border-radius: 30px;
+    /* border: transparent; */
+}
+
+fieldset legend{
+    text-align: justify;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    background-image:linear-gradient(to top ,  #833ab4, #fd1d1d, #fcb045) ;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+fieldset form{
+    box-shadow: rgba(0, 0, 0, .12);
+    
+}
+
+fieldset form input{
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 20px;
+    text-align: center;
+    background-color: lightgrey; 
+    
+}
+
+fieldset form  .sumbit{
+    background-color: transparent;
+    border: transparent;
+    background-image:linear-gradient(to top ,  #833ab4, #fd1d1d, #fcb045) ;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding-right: 40px;
+    cursor: pointer;
+    transition: 1s;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+
+fieldset form .sumbit:hover{
+    scale: 1.3;
+}
+
+fieldset form a{
+    text-decoration: none;
+    color: rgb(195, 34, 179);
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+fieldset form a:hover{
+    text-decoration: underline;
+}
+
+.logout{
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    /* position: absolute;
+    right: 30px;
+    top: 20px; */
+    transition: 1s;
+    position: absolute; top: 70%; left: 47%;
+}
+
+.logout:hover{
+    background-color: blue;
+    color: white;
+    scale: 1.3;
+}
+
+

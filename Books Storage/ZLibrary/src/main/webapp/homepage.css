@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	top: 0;
+}
+
+body{
+    background-image: url(Books/ebook-ge9942cc07_1920.jpg);
+	/* background-position: center; */
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+h1{
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 60px;
+    font-weight: bold;
+    font-size: 3rem;
+    background-image:linear-gradient(to top ,  #833ab4, #fd1d1d, #fcb045) ;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-style: italic;
+}
+
+.home .crud1{
+	margin-left: 30%;
+	margin-top: 10%;
+}
+
+.home .crud1 a{
+    background-image:linear-gradient(to top ,  #833ab4, #fd1d1d, #fcb045) ;
+	padding: 20px;
+	justify-content: space-between;
+	margin: 40px;
+	border-radius: 20px;
+	font-family: serif;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	transition: 1s ;
+}
+
+.home .crud1 a:hover {
+	background-color: transparent;
+    background-image: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045) ;
+
+}
+
+.home .crud2{
+	margin-left: 30%;
+	margin-top: 10%;
+    transition: 1s;
+}
+
+
+.home .crud2 a{
+    background-image:linear-gradient(to top ,  #833ab4, #fd1d1d, #fcb045) ;
+	padding: 20px;
+	justify-content: space-between;
+	margin: 40px;
+	border-radius: 20px;
+	font-family: serif;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	transition: 1s;
+}
+
+.home .crud2 a:hover {
+	background-color: transparent;
+
+    background-image: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+}
+
+.logout{
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    /* position: absolute;
+    right: 30px;
+    top: 20px; */
+    transition: 1s;
+}
+
+.logout:hover{
+    background-color: blue;
+    color: white;
+    scale: 1.3;
+}
